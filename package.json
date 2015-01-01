@@ -1,0 +1,19 @@
+{
+  "name": "grunt",
+  "version": "1.0.0",
+  "description": "test of grunt/npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "/users/tylerharder/Desktop/grunt"
+  },
+  "keywords": [
+    "grunt",
+    "test"
+  ],
+  "author": "Tyler Harder",
+  "license": "ISC"
+}
