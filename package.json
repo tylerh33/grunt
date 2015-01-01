@@ -1,10 +1,10 @@
 {
   "name": "grunt",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "test of grunt/npm",
   "main": "index.js",
   "scripts": {
-    "test": "grunt nodeunit"
+    "test": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,12 @@
     "test"
   ],
   "author": "Tyler Harder",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-compress": "^0.13.0",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-jshint": "~0.6.0"
+  }
 }
